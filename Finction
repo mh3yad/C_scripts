@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void cough(void)
+void cough(void); //void mean it will return no value
 int main (void) 
 {
   cough();
