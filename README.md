@@ -1,2 +1,2 @@
 # C_scripts
-Some C Scripts that i used 
+Some C Scripts That I Learned From Cs50 Course
