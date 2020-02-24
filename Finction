@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void cough(void)
+int main (void) 
+{
+  cough();
+}
 
 void cough(void)
 {
   printf("cough from function\n");
-}
-
-int main (void) 
-{
-  cough();
-  
 }
