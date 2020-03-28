@@ -9,25 +9,25 @@ struct human {
 
 int main( ) {
 
-   struct human ayad;        /* Declare Book1 of type Book */
-   struct human hero;        /* Declare Book2 of type Book */
+   struct human ayad;        /* Declare ayad  of type human */
+   struct human hero;        /* Declare hero of type human */
 
-   /* book 1 specification */
+   /* ayad 1 specification */
    strcpy( ayad.name, "mhayad");
    strcpy( ayad.job, "pentester");
    ayad.age = 18;
 
-   /* book 2 specification */
+   /* hero specification */
    strcpy( hero.name, "heroooo");
    strcpy( hero.job, "Cyber-Security_Researcher");
    hero.age = 20;
 
-   /* print Book1 info */
+   /* print ayad info */
    printf( "first human name is  : %s\n", ayad.name);
    printf( "first human job is   :  %s\n", ayad.job);
    printf( "first human age is   :  %d\n", ayad.age);
 
-   /* print Book2 info */
+   /* print hero info */
    printf( "second human name is : %s\n", hero.name);
    printf( "second human job is  :  %s\n", hero.job);
    printf( "second human age is  :  %d\n", hero.age);
